@@ -213,7 +213,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 337d0b29-923d-4d86-a199-4fd08787fa75)
     )
-    (fp_text value "0603WAF3300T5E" (at 0 2.660605 90) (layer "F.Fab") hide
+    (fp_text value "10k" (at 0 2.660605 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 777635cb-05a8-409b-9a9c-6e2d9ec3b7df)
     )
@@ -261,7 +261,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bad8dd61-2829-452a-bc04-e6debf1eb191)
     )
-    (fp_text value "0603WAF3300T5E" (at 0 2.660605 90) (layer "F.Fab") hide
+    (fp_text value "10k" (at 0 2.660605 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f3c688e0-341e-43ef-9205-8414827f5576)
     )
@@ -617,7 +617,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3682ccc2-0bf4-4ff8-8a7c-0df4e70adb1a)
     )
-    (fp_text value "CL05B104KO5NNNC" (at 0 2.498603 90) (layer "F.Fab") hide
+    (fp_text value "0.01uF" (at 0 2.498603 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ac26b84-164f-4602-8977-cf6798cc5fb4)
     )
@@ -673,7 +673,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bc9933b3-a06c-4ac6-9feb-3a5490d074cf)
     )
-    (fp_text value "RotaryEncoder" (at 0 0) (layer "F.Fab")
+    (fp_text value "PER601-P117-N0015" (at 0 0) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11e7c7c5-395e-4b44-9d1d-d385fb6cbb36)
     )
@@ -1495,10 +1495,11 @@
     (tags "Cherry MX Keyboard Keyswitch Switch PCB Cutout")
     (property "Sheetfile" "ultrafalcon.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "Push button switch, generic, two pins")
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/1964a57b-2fbc-423d-9d81-28229d8c6d25")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "SW2" (at 0 -8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bacf96dd-631c-43f2-a268-967c1afdbbe5)
@@ -1595,10 +1596,11 @@
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "ultrafalcon.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/c62365af-4bd2-41fb-8550-f07aaeda0e30")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H1" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fd750156-1932-4a04-a844-6840d11ac5c7)
@@ -1989,7 +1991,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3a974f08-c444-4727-8ecc-02bc5023ba00)
     )
-    (fp_text value "0603WAF3300T5E" (at 0 2.660605 90) (layer "F.Fab") hide
+    (fp_text value "10k" (at 0 2.660605 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c168f96d-df2c-4990-ad1d-3c6c390697c1)
     )
@@ -2241,7 +2243,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41548149-279d-45c5-9079-91a02f921d32)
     )
-    (fp_text value "CL05B104KO5NNNC" (at 0 2.498603 90) (layer "F.Fab") hide
+    (fp_text value "0.01uF" (at 0 2.498603 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8897b95c-27cb-4a5b-9967-dc4c0d8d10d1)
     )
@@ -2773,7 +2775,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aed74480-d990-4d10-b178-ca876c8ec03b)
     )
-    (fp_text value "0603WAF3300T5E" (at 0 2.660605 90) (layer "F.Fab") hide
+    (fp_text value "10k" (at 0 2.660605 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5ea86ecf-8782-4f09-a92f-1316786b1cb4)
     )
@@ -2813,10 +2815,11 @@
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "ultrafalcon.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/0cbcb6c7-d5ff-40ab-a787-3ea474a3f539")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H2" (at 0 -4.2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 33f8f508-a25c-44f1-9d55-2a08f1bfd5de)
@@ -2859,10 +2862,11 @@
     (tags "connector JST EH vertical")
     (property "Sheetfile" "ultrafalcon.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "Generic connector, single row, 01x08, script generated")
     (property "ki_keywords" "connector")
     (path "/a9e8cbdf-7ab3-4fb0-b48c-a91aa111534b")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "J1" (at 8.75 2.8 90) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 13e8f40f-b873-4ec0-b1cd-e5eebcd87fd9)
@@ -2925,7 +2929,7 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 54cbfc9a-06b3-4515-9821-30f00e2706c8))
     (fp_line (start 20 1.6) (end -2.5 1.6)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp bbe5263e-9d89-4ed6-a7c8-6cbdfe3e2c3d))
-    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.147059)
+    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1470588235)
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 0116171d-6abe-4df0-be19-c4b42e1e7c59))
     (pad "2" thru_hole oval (at 2.5 0 90) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask")
       (net 5 "VCC") (pinfunction "Pin_2") (pintype "passive") (tstamp 906ceaf0-65bd-4f09-a564-6a861b7cd790))
