@@ -2581,7 +2581,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 252.73 72.39 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 348142de-df72-4ba6-9d8c-ad132dbfac48)
     (property "Reference" "J2" (at 253.365 64.77 0)
       (effects (font (size 1.27 1.27)))
@@ -5314,7 +5314,7 @@
     (property "Value" "**REF" (at 311.15 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "ct-kicad:ultrafalcon-qr" (at 308.61 55.88 0)
+    (property "Footprint" "ct-kicad:ultrafalcon-qr-15mm" (at 308.61 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 308.61 55.88 0)
